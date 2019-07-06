@@ -8,11 +8,4 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public interface ApiService {
     @RequestMapping(value = "/index",method = RequestMethod.GET)
     String index();
-
-
-
-
-
-
-
 }
